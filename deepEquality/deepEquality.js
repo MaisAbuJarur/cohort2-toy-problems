@@ -14,4 +14,17 @@
 
   var deepEquals = function(obj1, obj2){
 
-  }
+  		for(var key in obj1){
+  			if(typeof obj1[key] === "object"){
+  				return deepEquals(obj1[key], obj2[key])
+  			}else{
+
+  			if(obj1[key] === obj2[key]){
+  				return true		
+  			}
+  		return false
+  	  }
+ }
+}
+time complexity : BigO(n) linear
+ 
