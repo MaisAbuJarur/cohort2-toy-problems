@@ -26,7 +26,8 @@ function Jar() {
 }
 
 Jar.prototype.add = function(amt, type){
-	this.juice[type] = amt
+	this.juice[type] = this.juice[type] + amt
+	
 }
 
 Jar.prototype.getTotalAmount = function (){
@@ -41,10 +42,10 @@ Jar.prototype.getConcentration = function(type){
 	if(this.juice[type] === undefined){
 		return "Concentration is 0"
 	}
-	return "Concentration of " + type +  " is " +  (this.juice[type] / this.getTotalAmount() * 100) + "%"
+	return "Concentration of " + type +  " is " +  (this.juice[type] / this.getTotalAmount())
 }
 
-BigO is constant time except for Jar.prototype.getTotalAmount where it is linear
+//BigO is constant time except for Jar.prototype.getTotalAmount where it is linear
 /*
 These are some tests:
 var jar = new Jar();
