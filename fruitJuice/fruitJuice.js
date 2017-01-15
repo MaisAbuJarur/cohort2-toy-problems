@@ -21,6 +21,7 @@ Complete the functions in order to provide this functionality.
 */
 
 function Jar() {
+<<<<<<< HEAD
   this.juice = {}
   this.total = 0;
 }
@@ -46,6 +47,11 @@ Jar.prototype.getConcentration = function(type){
 }
 
 //BigO is constant time except for Jar.prototype.getTotalAmount where it is linear
+=======
+  // TODO
+}
+
+>>>>>>> 9088e14fd3d4b5f7980473d76fa7d9d9b84ec461
 /*
 These are some tests:
 var jar = new Jar();
