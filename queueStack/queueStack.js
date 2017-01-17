@@ -9,6 +9,7 @@
  var Stack = function() {
   this.stack=[];
 
+<<<<<<< HEAD
 };
    // add an item to the top of the stack
    Stack.prototype.push = function(value){
@@ -25,6 +26,20 @@
     return this.stack.length
    };
 
+=======
+   // add an item to the top of the stack
+   this.push = function(value){
+   };
+
+   // remove an item from the top of the stack
+   this.pop = function(){
+   };
+
+   // return the number of items in the stack
+   this.size = function(){
+   };
+ };
+>>>>>>> f1996fc46a552df71db210c9733275ae9f4788cf
 
  /**
    * Queue Class
@@ -36,6 +51,7 @@
 
    // called to add an item to the `queue`
    this.enqueue = function(value){
+<<<<<<< HEAD
      if(inbox.length === 0){
       inbox.push(value)
     }
@@ -48,12 +64,26 @@
     if(outbox.length){
       inbox.unshift(outbox[outbox.length-1])
     };
+=======
+     
+     }
+   };
+
+   // called to remove an item from the `queue`
+   this.dequeue = function(){
+    }
+>>>>>>> f1996fc46a552df71db210c9733275ae9f4788cf
    };
 
    // should return the number of items in the queue
    this.size = function(){
+<<<<<<< HEAD
     return inbox.concat(outbox).length
    };
  };
 
  //Time-complexity @ Constant time
+=======
+   };
+ };
+>>>>>>> f1996fc46a552df71db210c9733275ae9f4788cf
