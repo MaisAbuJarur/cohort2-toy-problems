@@ -44,6 +44,7 @@ function rotate(array, steps){
 		for(var i = x; i < array.length ; i++){
 			result.push(array[i])
 			
+			
 			}  
 
 	}else{
