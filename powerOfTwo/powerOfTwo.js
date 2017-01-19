@@ -5,6 +5,7 @@ Hint the answer is 1366.
 */
 
 var powerOfTwo = function(num){
+<<<<<<< HEAD
 	var x = Math.pow(2,num)
 	var re = /[.+ ]/g
 	var re2 = /[e]/g
@@ -21,3 +22,7 @@ var powerOfTwo = function(num){
 };
 
 //time complexity: linear
+=======
+
+}
+>>>>>>> a5c71016976e98c9702b3634f9a79bf8902739cd
