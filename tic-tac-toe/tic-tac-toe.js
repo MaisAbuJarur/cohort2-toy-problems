@@ -20,6 +20,7 @@ var solvedBoard = [[0,1,1],
                    [2,1,2]];
 ticTacToe(solvedBoard);//should return 1
 */
+<<<<<<< HEAD
 function horizontal(board){
 	for (var i = 0; i < board.length; i++) {
 		for (var j = 0; j < board[i].length; j++) {
@@ -100,3 +101,9 @@ function ticTacToe(board){
 // };
 
 //timecomplexity : quadratic
+=======
+
+function ticTacToe(board){
+	
+};
+>>>>>>> 169bb2998308d17180eaceea99dcf1c0881da3a6
