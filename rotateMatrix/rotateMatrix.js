@@ -38,6 +38,22 @@
  */
 
 var rotateMatrix =function (matrix) {
-	
+	var row1 = [];
+	var row2 = [];
+	var row3 = [];
+	var row4 = [];
+	var result = []
+	for (var i = matrix.length-1; i >=0; i--) {
+			row1.push(matrix[i][0])
+			row2.push(matrix[i][1])
+			row3.push(matrix[i][2])
+			row4.push(matrix[i][3])
+
+		}
+		result.push(row1);
+		result.push(row2);
+		result.push(row3);
+		result.push(row4);
+		return result;
 }
-///////////////////
+///////////////////time-complexity : linear
