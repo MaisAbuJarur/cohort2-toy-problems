@@ -28,6 +28,7 @@ dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => [] //don't nee
 */
 
 var dirReduc = function(directions){
+<<<<<<< HEAD
 
 	if(directions.includes('NORTH') &&  directions.includes('SOUTH')){
 		directions.splice(directions.indexOf('NORTH'),1)
@@ -45,3 +46,9 @@ var dirReduc = function(directions){
 };
 
 //time-complexity : exponential
+=======
+	
+	return directions;
+};
+
+>>>>>>> d2130e14cb0ab2ec81404accbb5aee359f2349a4
