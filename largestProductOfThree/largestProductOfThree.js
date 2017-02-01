@@ -18,8 +18,3 @@ var largestProductOfThree = function(array) {
 	return result;
 };
 
-//time complexity linear 
-
-
-
-
