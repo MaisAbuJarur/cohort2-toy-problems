@@ -26,7 +26,7 @@ Array.prototype.isSubsetOf = function (arr) {
 	var counter = 0;
 	for (var i = 0; i < this.length; i++) {
 		if(arr.includes(this[i])) {
-			counter +=1
+			counter +=1;
 		}
 	}
 	if(counter >= this.length){
@@ -34,4 +34,5 @@ Array.prototype.isSubsetOf = function (arr) {
 	}
 	return false;
 
-}
+};
+//time-complexity: exponential;
