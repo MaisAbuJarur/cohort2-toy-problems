@@ -23,6 +23,7 @@
 */
 
 Array.prototype.isSubsetOf = function (arr) {
+<<<<<<< HEAD
 	var counter = 0;
 	for (var i = 0; i < this.length; i++) {
 		if(arr.includes(this[i])) {
@@ -36,3 +37,7 @@ Array.prototype.isSubsetOf = function (arr) {
 
 };
 //time-complexity: exponential;
+=======
+
+}
+>>>>>>> 489641d63aec9a4741e9d52eb49286a5629cb485

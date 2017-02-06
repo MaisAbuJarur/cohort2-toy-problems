@@ -25,6 +25,7 @@ buildTriangle(3);// should output [[1],[1,1],[1,2,1]];
 */
 
 var buildTriangle = function(numOfRows){
+<<<<<<< HEAD
 	var array = [[1], [1,1]]
 	for (var i = 0; i < numOfRows; i++) {
 			array.push([1,(array[i] + array[i+1] ), 1])
@@ -35,4 +36,8 @@ var buildTriangle = function(numOfRows){
 }
 
 //time-complexity: linear
+=======
+	
+}
+>>>>>>> 489641d63aec9a4741e9d52eb49286a5629cb485
 		
