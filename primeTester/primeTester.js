@@ -4,12 +4,14 @@
  * a prime number, false if it's not.
  */
  var primeTester = function(n) {
- 	var result;
+ 	var result =true;
  	if(n===1){
  		return false;
  	}
  	for (var i = 2; i < n; i++) {
- 		result= (n%i !== 0)
+ 		if (n%i === 0){
+ 			result = false
+ 		}
 
  	}
  	return result;
