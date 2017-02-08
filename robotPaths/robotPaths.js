@@ -28,15 +28,19 @@ var makeBoard = function(n) {
   board.hasBeenVisited = function(i, j) {
     return !!this[i][j];
   }
+<<<<<<< HEAD
   board.makePath = function(){
 
   }
+=======
+>>>>>>> 551c0ed41d181ca0915bb8fe20dd8ced3bdec13b
   return board;
 };
 
 //You can create a board size 5 like this:
 //var myBoard = makeBoard(5);
 //The answer for a board size 5 is 8512 unique paths
+<<<<<<< HEAD
  var myBoard = makeBoard(5);
 
 var robotPaths = function(myBoard) {
@@ -60,6 +64,14 @@ return counter;
 }
 
  //time-complexity exponential     
+=======
+
+var robotPaths = function(myBoard) {
+ 
+}
+
+      
+>>>>>>> 551c0ed41d181ca0915bb8fe20dd8ced3bdec13b
 
 
 
