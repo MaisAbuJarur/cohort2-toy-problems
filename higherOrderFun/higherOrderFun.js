@@ -13,10 +13,13 @@ See example usage to understand what arguments are passed to the callback.
 
 Array.prototype.map = function(callback){
 
+<<<<<<< HEAD
 	for (var i = 0; i < this.Array.length; i++) {
 		callback(this.Array[i])
 	}
 
+=======
+>>>>>>> 6139d109628045e21009148a873b7cd0ec6ac1e6
 }
 
 /*
@@ -44,12 +47,15 @@ Please see example usage to understand what should be passed to the callback.
 
 var asyncSum = function(a,b,callback){
 
+<<<<<<< HEAD
 	setTimeout(callback(function (a,b){ 
 		if(typeof a === number && typeof b ==== number){
 		 return a+b  
 		}
 		return "Incorrect argument(s)"
 	}), 1000)
+=======
+>>>>>>> 6139d109628045e21009148a873b7cd0ec6ac1e6
 };
 
 /*
@@ -74,9 +80,13 @@ asyncSum(10,"B",logNumber);//should print "Error: Incorrect argument(s)" after 1
 Problem 3 (ADVANCED):
 
 What kind of candy do you like?
+<<<<<<< HEAD
 Your answer:
 
 chocolate 
+=======
+Your answer: 
+>>>>>>> 6139d109628045e21009148a873b7cd0ec6ac1e6
 
 */
 
